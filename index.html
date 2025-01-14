@@ -566,109 +566,104 @@
       </div>
     </section>
 
-    <!-- Case studies -->
-    <section class="bg-secondary pt-1">
-      <div class="container">
-        <h2 class="h1 text-center text-md-start mb-lg-4">Case Studies</h2>
-        <div class="row align-items-center pb-5">
-          <div class="col-md-8 col-lg-7 col-xl-6 text-center text-md-start">
-            <p class="fs-lg text-muted mb-md-0">We bring real solutions to each client’s problems through a deep
-              understanding of their market, solution, and vision.</p>
-          </div>
-          <div class="col-md-4 col-lg-5 col-xl-6 d-flex justify-content-center justify-content-md-end">
-            <a href="#" class="btn btn-outline-primary btn-lg">See all case studies</a>
-          </div>
-        </div>
+   <!-- Case studies -->
+<section class="bg-secondary pt-1">
+  <div class="container">
+    <h2 class="h1 text-center text-md-start mb-lg-4">Our Success Stories</h2>
+    <div class="row align-items-center pb-5">
+      <div class="col-md-8 col-lg-7 col-xl-6 text-center text-md-start">
+        <p class="fs-lg text-muted mb-md-0">We provide efficient solutions that ensure your devices perform at their best, backed by extensive experience in the repair and maintenance industry.</p>
       </div>
+      <div class="col-md-4 col-lg-5 col-xl-6 d-flex justify-content-center justify-content-md-end">
+        <a href="#" class="btn btn-outline-primary btn-lg">See all success stories</a>
+      </div>
+    </div>
+  </div>
 
-      <div class="position-relative py-lg-4 py-xl-5">
+  <div class="position-relative py-lg-4 py-xl-5">
 
-        <!-- Swiper tabs -->
-        <div class="swiper-tabs position-absolute top-0 start-0 w-100 h-100">
-          <div id="image-1" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab active" data-jarallax
-            data-speed="0.4">
-            <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-            <div class="jarallax-img"
-              style="background-image: url(assets/img/landing/software-company/case-study01.jpg);"></div>
+    <!-- Swiper tabs -->
+    <div class="swiper-tabs position-absolute top-0 start-0 w-100 h-100">
+      <div id="image-1" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab active" data-jarallax
+        data-speed="0.4">
+        <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
+        <div class="jarallax-img"
+          style="background-image: url(assets/img/landing/software-company/case-study01.jpg);"></div>
+      </div>
+      <div id="image-2" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab" data-jarallax
+        data-speed="0.4">
+        <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
+        <div class="jarallax-img"
+          style="background-image: url(assets/img/landing/software-company/case-study02.jpg);"></div>
+      </div>
+    </div>
+
+    <!-- Swiper slider -->
+    <div class="container position-relative zindex-5 py-5">
+      <div class="row py-2 py-md-3">
+        <div class="col-xl-5 col-lg-7 col-md-9">
+
+          <!-- Slider controls (Prev / next) -->
+          <div class="d-flex justify-content-center justify-content-md-start pb-3 mb-3">
+            <button type="button" id="case-study-prev" class="btn btn-prev btn-icon btn-sm bg-white me-2">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button type="button" id="case-study-next" class="btn btn-next btn-icon btn-sm bg-white ms-2">
+              <i class="bx bx-chevron-right"></i>
+            </button>
           </div>
-          <div id="image-2" class="jarallax position-absolute top-0 start-0 w-100 h-100 swiper-tab" data-jarallax
-            data-speed="0.4">
-            <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-            <div class="jarallax-img"
-              style="background-image: url(assets/img/landing/software-company/case-study02.jpg);"></div>
-          </div>
-        </div>
 
-        <!-- Swiper slider -->
-        <div class="container position-relative zindex-5 py-5">
-          <div class="row py-2 py-md-3">
-            <div class="col-xl-5 col-lg-7 col-md-9">
+          <!-- Card -->
+          <div class="card bg-white shadow-sm p-3">
+            <div class="card-body">
+              <div class="swiper" data-swiper-options='{
+                  "spaceBetween": 30,
+                  "loop": true,
+                  "tabs": true,
+                  "pagination": {
+                    "el": "#case-study-pagination",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "prevEl": "#case-study-prev",
+                    "nextEl": "#case-study-next"
+                  }
+                }'>
+                <div class="swiper-wrapper">
 
-              <!-- Slider controls (Prev / next) -->
-              <div class="d-flex justify-content-center justify-content-md-start pb-3 mb-3">
-                <button type="button" id="case-study-prev" class="btn btn-prev btn-icon btn-sm bg-white me-2">
-                  <i class="bx bx-chevron-left"></i>
-                </button>
-                <button type="button" id="case-study-next" class="btn btn-next btn-icon btn-sm bg-white ms-2">
-                  <i class="bx bx-chevron-right"></i>
-                </button>
-              </div>
+                  <!-- Item -->
+                  <div class="swiper-slide" data-swiper-tab="#image-1">
+                    <img src="assets/img/landing/software-company/case-study-logo01.png" class="d-block mb-3"
+                      width="72" alt="Logo">
+                    <h3 class="mb-2">Laptop Repair &amp; Optimization Case Study</h3>
+                    <p class="fs-sm text-muted border-bottom pb-3 mb-3">Professional Repair Services</p>
+                    <p class="pb-2 pb-lg-3 mb-3">We fixed performance issues and optimized the system, ensuring smoother operations. Our client saw improved speed and reliability on their device.</p>
+                    <a href="#" class="btn btn-primary">View full case study</a>
+                  </div>
 
-              <!-- Card -->
-              <div class="card bg-white shadow-sm p-3">
-                <div class="card-body">
-                  <div class="swiper" data-swiper-options='{
-                      "spaceBetween": 30,
-                      "loop": true,
-                      "tabs": true,
-                      "pagination": {
-                        "el": "#case-study-pagination",
-                        "clickable": true
-                      },
-                      "navigation": {
-                        "prevEl": "#case-study-prev",
-                        "nextEl": "#case-study-next"
-                      }
-                    }'>
-                    <div class="swiper-wrapper">
-
-                      <!-- Item -->
-                      <div class="swiper-slide" data-swiper-tab="#image-1">
-                        <img src="assets/img/landing/software-company/case-study-logo01.png" class="d-block mb-3"
-                          width="72" alt="Logo">
-                        <h3 class="mb-2">Cashless payment case study</h3>
-                        <p class="fs-sm text-muted border-bottom pb-3 mb-3">Payment Service Provider Company</p>
-                        <p class="pb-2 pb-lg-3 mb-3">Aenean dolor elit tempus tellus imperdiet. Elementum, ac convallis
-                          morbi sit est feugiat ultrices. Cras tortor maecenas pulvinar nec ac justo. Massa sem eget
-                          semper...</p>
-                        <a href="#" class="btn btn-primary">View case study</a>
-                      </div>
-
-                      <!-- Item -->
-                      <div class="swiper-slide" data-swiper-tab="#image-2">
-                        <img src="assets/img/landing/software-company/case-study-logo02.png" class="d-block mb-3"
-                          width="72" alt="Logo">
-                        <h3 class="mb-2">Smart tech case study</h3>
-                        <p class="fs-sm text-muted border-bottom pb-3 mb-3">Data Analytics Company</p>
-                        <p class="pb-2 pb-lg-3 mb-3">Adipiscing quis a at ligula. Gravida gravida diam rhoncus cursus
-                          in. Turpis sagittis tempor gravida phasellus sapien. Faucibus donec consectetur sed id sit
-                          nisl.</p>
-                        <a href="#" class="btn btn-primary">View case study</a>
-                      </div>
-                    </div>
+                  <!-- Item -->
+                  <div class="swiper-slide" data-swiper-tab="#image-2">
+                    <img src="assets/img/landing/software-company/case-study-logo02.png" class="d-block mb-3"
+                      width="72" alt="Logo">
+                    <h3 class="mb-2">Smartphone Screen Replacement Case Study</h3>
+                    <p class="fs-sm text-muted border-bottom pb-3 mb-3">Quick &amp; Efficient Repair Services</p>
+                    <p class="pb-2 pb-lg-3 mb-3">We successfully replaced a damaged screen and restored the functionality of our client's smartphone, ensuring minimal downtime.</p>
+                    <a href="#" class="btn btn-primary">View full case study</a>
                   </div>
                 </div>
               </div>
-
-              <!-- Pagination (bullets) -->
-              <div class="dark-mode pt-4 mt-3">
-                <div id="case-study-pagination" class="swiper-pagination position-relative bottom-0"></div>
-              </div>
             </div>
+          </div>
+
+          <!-- Pagination (bullets) -->
+          <div class="dark-mode pt-4 mt-3">
+            <div id="case-study-pagination" class="swiper-pagination position-relative bottom-0"></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
   <!-- Features -->
 <section class="container py-5 my-2 my-md-4 my-lg-5">
@@ -903,7 +898,7 @@
     </div>
     <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
       <span class="text-light opacity-50">&copy; All rights reserved. Made by </span>
-      <a class="nav-link d-inline-block p-0" href="https://yourwebsite.com/" target="_blank" rel="noopener">Your Business Name</a>
+      <a class="nav-link d-inline-block p-0" href="https://robotech.com/" target="_blank" rel="noopener">Robotech Solutions</a>
     </p>
   </div>
 </footer>
